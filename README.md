@@ -1,91 +1,224 @@
-# NPOS — Point of Sale & Business Operation System
+# NPOS — Business Operating Platform
 
-NPOS is a Point of Sale and business operation system designed for small to medium-sized food businesses.
+NPOS is a business operating platform designed for food and retail businesses.
 
-The system helps manage daily sales, orders, inventory, branch operations, reporting, and printing workflows across multiple platforms.
+The platform centralizes sales operations, inventory management, purchasing, finance, employee management, asset tracking, and marketplace integrations into a unified ecosystem.
+
+Rather than functioning solely as a Point of Sale system, NPOS serves as an operational backbone for managing day-to-day business activities across multiple stores and branches.
+
+---
 
 ## Overview
 
-NPOS was designed as a multi-platform ecosystem consisting of:
+NPOS was built to solve a common problem faced by growing businesses:
 
-- Mobile POS App
-- Backend API
-- Admin Console
-- Inventory Management
-- Order Management
-- Reporting Dashboard
-- Receipt & Kitchen Printing
+Operational data is often scattered across multiple disconnected systems.
 
-## Tech Stack
+Sales are recorded in one application, inventory is managed in spreadsheets, financial records are tracked separately, and employee data is stored elsewhere.
+
+NPOS brings these business functions together into a single platform.
+
+---
+
+## Core Business Domains
+
+### Sales Management
+
+* Point of Sale
+* Order Processing
+* Customer Management
+* Product Management
+* Voucher Management
+* Promotions
+* Bundle Products
+* Product Options
+
+### Inventory Management
+
+* Ingredient Management
+* Stock Tracking
+* Stock Movement History
+* Stock Opname
+* Bulk Opname
+* Waste Tracking
+* Recipe Management
+
+### Purchasing Management
+
+* Purchase Orders
+* Supplier Purchasing
+* Product Returns
+
+### Financial Management
+
+* Financial Accounts
+* Cash Transactions
+* Internal Transfers
+* Loan Management
+* Expense Management
+* Bills & Liabilities
+
+### Human Resource Management
+
+* Employee Management
+* Attendance Tracking
+* Employee Face Registration
+
+### Asset Management
+
+* Asset Registration
+* Asset Payments
+* Asset Depreciation Tracking
+
+### Platform Management
+
+* Multi-Store Management
+* Multi-Branch Management
+* User & Role Management
+* Access Control
+
+### External Platform Integration
+
+- Designed integration layer for third-party ordering platforms
+- Integration was deprioritized due to API access policy changes
+- Architecture remains extensible for future integrations
+
+---
+
+## System Architecture
+
+The platform consists of multiple applications working together.
 
 ### Mobile POS
-- Flutter
-- REST API Integration
-- Local cart and checkout flow
-- Printer integration
 
-### Backend
-- Node.js
-- Express.js
-- MySQL
-- JWT Authentication
-- Modular API architecture
+Used by cashiers and store operators.
+
+Responsibilities:
+
+* Product browsing
+* Cart management
+* Checkout
+* Order processing
+* Receipt printing
+
+Technology:
+
+* Flutter
+
+### Backend API
+
+Acts as the central business layer.
+
+Responsibilities:
+
+* Authentication
+* Business Rules
+* Inventory Processing
+* Financial Processing
+* Reporting
+* Marketplace Integration
+
+Technology:
+
+* Node.js
+* Express.js
+* MySQL
 
 ### Admin Console
-- React.js
-- TypeScript
-- Dashboard analytics
-- Inventory and order management
 
-### Infrastructure
-- Ubuntu Server
-- NGINX
-- CI/CD Pipeline
-- Systemd
-- VPS Deployment
+Used by administrators and business owners.
 
-## Key Features
+Responsibilities:
 
-- Product and menu management
-- Cart and checkout flow
-- Sales order processing
-- Inventory stock tracking
-- Branch-based operations
-- Dashboard reporting
-- Receipt printing
-- Multi-platform architecture
+* Dashboard Reporting
+* Product Management
+* Inventory Monitoring
+* Financial Monitoring
+* Employee Management
 
-## Architecture
+Technology:
 
-```mermaid
-flowchart TD
-    A[Mobile POS App - Flutter] --> B[Backend API - Node.js Express]
-    C[Admin Console - React] --> B
-    B --> D[(MySQL Database)]
-    B --> E[Printer Service]
-    B --> F[Reporting Module]
-```
+* React.js
+* TypeScript
 
-## Business Problem
+---
 
-Small food businesses often manage sales, inventory, reporting, and operations manually or through disconnected tools.
+## Multi-Tenant Architecture
 
-NPOS was built to centralize these operations into one system, allowing the business to manage transactions, products, stock movement, and reporting more efficiently.
+NPOS is designed to support multiple stores and branches.
+
+Store
+└── Branches
+├── Products
+├── Orders
+├── Inventory
+├── Employees
+└── Financial Records
+
+This architecture enables businesses to manage multiple operational locations while maintaining centralized oversight.
+
+---
+
+## Key Technical Challenges
+
+### Unified Business Platform
+
+Building a system capable of handling operational workflows across multiple business domains.
+
+### Inventory Accuracy
+
+Maintaining inventory consistency through stock movement tracking and automated updates from operational activities.
+
+### Financial Visibility
+
+Providing consolidated reporting across sales, expenses, loans, transfers, and operational costs.
+
+### Scalability
+
+Designing a data model capable of supporting multiple stores, branches, users, and operational records.
+
+---
+
+## Infrastructure
+
+* Ubuntu Server
+* NGINX
+* Systemd
+* CI/CD Pipeline
+* VPS Deployment
+* MySQL Database
+
+---
 
 ## My Role
 
-I designed and developed the system architecture, backend API, frontend console, mobile POS flow, database structure, deployment workflow, and printing integration.
+I designed and developed the platform architecture, backend services, frontend applications, database structure, deployment workflow, and operational modules.
 
-## Challenges Solved
-- Designing a multi-platform POS ecosystem
-- Handling cart, checkout, and order submission flow
-- Structuring inventory and branch-based stock
-- Building dashboard reporting from transactional data
-- Integrating local receipt printing
-- Deploying backend services on Ubuntu Server 
+Responsibilities included:
 
-## Status
+* System Architecture
+* Database Design
+* Backend Development
+* Frontend Development
+* Mobile Development
+* DevOps & Deployment
+* Reporting Architecture
+* Business Process Design
 
-This project is currently used as a showcase project to demonstrate product engineering, full-stack development, and system architecture experience.
+---
 
-Source code is private, but architecture, screenshots, and technical documentation are provided for portfolio purposes.
+## Project Status
+
+Private Production Project
+
+Source code is private.
+
+Architecture, documentation, and screenshots are provided for portfolio purposes.
+
+
+```md
+## Architecture Diagram
+
+See the system architecture here:
+
+[View System Architecture](./diagrams/system-architecture.md)
