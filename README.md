@@ -64,6 +64,7 @@ flowchart TD
     B --> D[(MySQL Database)]
     B --> E[Printer Service]
     B --> F[Reporting Module]
+```
 
 ## Business Problem
 
