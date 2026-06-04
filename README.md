@@ -64,3 +64,27 @@ flowchart TD
     B --> D[(MySQL Database)]
     B --> E[Printer Service]
     B --> F[Reporting Module]
+
+## Business Problem
+
+Small food businesses often manage sales, inventory, reporting, and operations manually or through disconnected tools.
+
+NPOS was built to centralize these operations into one system, allowing the business to manage transactions, products, stock movement, and reporting more efficiently.
+
+## My Role
+
+I designed and developed the system architecture, backend API, frontend console, mobile POS flow, database structure, deployment workflow, and printing integration.
+
+## Challenges Solved
+- Designing a multi-platform POS ecosystem
+- Handling cart, checkout, and order submission flow
+- Structuring inventory and branch-based stock
+- Building dashboard reporting from transactional data
+- Integrating local receipt printing
+- Deploying backend services on Ubuntu Server 
+
+## Status
+
+This project is currently used as a showcase project to demonstrate product engineering, full-stack development, and system architecture experience.
+
+Source code is private, but architecture, screenshots, and technical documentation are provided for portfolio purposes.
