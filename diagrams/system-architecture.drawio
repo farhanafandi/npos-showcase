@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ahxQo2Uju3F1txiPUFN1">
+    <mxGraphModel dx="1406" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-39" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z6088tCMY9P8a5GTsS5O-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-40" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z6088tCMY9P8a5GTsS5O-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C3CCDC);strokeColor=light-dark(#000000,#3B82F6);" value="" vertex="1">
+          <mxGeometry height="100" width="590" x="130" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-7" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFFFF);" target="Z6088tCMY9P8a5GTsS5O-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=light-dark(#000000,#3B82F6);fontColor=light-dark(#000000,#000000);" value="Admin Console&lt;div&gt;React + NextJs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-8" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFFFF);" target="Z6088tCMY9P8a5GTsS5O-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=light-dark(#000000,#3B82F6);fontColor=light-dark(#000000,#000000);" value="Mobile POS App&lt;br&gt;Flutter" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-36" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="Z6088tCMY9P8a5GTsS5O-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=light-dark(#000000,#3B82F6);fontColor=light-dark(#000000,#000000);" value="Backend API&lt;br&gt;Node.js + Express" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Sales Domain" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Inventory Domain" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Finance Domain" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Employee Domain" vertex="1">
+          <mxGeometry height="30" width="60" x="515" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Assets Domain" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-33" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z6088tCMY9P8a5GTsS5O-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-26" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#C3CCDC);strokeColor=light-dark(#000000,#3B82F6);" value="" vertex="1">
+          <mxGeometry height="80" width="60" x="395" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="MySQL DB" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-30" edge="1" parent="1" source="Z6088tCMY9P8a5GTsS5O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FFFFFF);" target="Z6088tCMY9P8a5GTsS5O-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Reporting" vertex="1">
+          <mxGeometry height="30" width="60" x="248" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6088tCMY9P8a5GTsS5O-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Printing" vertex="1">
+          <mxGeometry height="30" width="60" x="543" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
